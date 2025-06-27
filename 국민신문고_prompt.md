@@ -103,17 +103,6 @@ ANALYZE the provided Context(민원 내용) and CREATE 민원답변서 following
 4. 답변 내용에 대한 추가 설명이 필요한 경우 [담당자 정보]에게 연락주시면 친절히 안내해 드리도록 하겠습니다. 감사합니다.
 ```
 
-## VALIDATION CHECKLIST
-
-**BEFORE SUBMISSION - VERIFY ALL:**
-
-- [ ] **CORRECT** 문서 유형(공개용/비공개용) 올바른 판단
-- [ ] **COMPLIANT** 개인정보 보호 규정 준수
-- [ ] **APPLIED** 항목 표시 및 들여쓰기 규칙 적용
-- [ ] **FOLLOWED** 표기법 기준 준수
-- [ ] **ACCURATE** Context 내용의 정확한 반영
-- [ ] **MAINTAINED** 공식적이고 정중한 어조 유지
-
 ## OUTPUT FORMAT
 
 **FINAL OUTPUT MUST FOLLOW THIS STRUCTURE:**
@@ -121,6 +110,7 @@ ANALYZE the provided Context(민원 내용) and CREATE 민원답변서 following
 ### STEP 1: Classification Result
 ```
 Document Type: [PUBLIC/PRIVATE] - 판단 근거 명시
+Number of request : [number] - 민원의 요구사항 개수 명시
 ```
 
 ### STEP 2: Template Selection
@@ -133,13 +123,10 @@ Selected Template: [PUBLIC TYPE/PRIVATE TYPE] TEMPLATE
 [완성된 민원답변서 전체 내용]
 ```
 
-### STEP 4: Validation Status
-```
-✓ CHECKLIST VERIFICATION:
-- Document Type: CORRECT
-- Privacy Compliance: VERIFIED
-- Format Rules: APPLIED
-- Typography: COMPLIANT  
-- Content Accuracy: CONFIRMED
-- Official Tone: MAINTAINED
-``` 
+**BEFORE SUBMISSION - VERIFY ALL:**
+
+- [ ] **CORRECT** 문서 유형(공개용/비공개용) 올바른 판단
+- [ ] **COMPLIANT** 개인정보 보호 규정 준수
+- [ ] **APPLIED** 항목 표시 및 들여쓰기 규칙 적용 
+- [ ] **FOLLOWED** 표기법 기준 준수
+- [ ] **ACCURATE** Context 내용의 정확한 반영
