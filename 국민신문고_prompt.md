@@ -1,7 +1,7 @@
 # Civil Complaint Response Generation Prompt
 # 국민신문고 민원답변서 작성 프롬프트
 ```
-   This is for users : 
+   # This is for users 
    담당부서 : 
    팀 :
    전화번호 :    
@@ -126,7 +126,7 @@ Selected Template: [PUBLIC TYPE/PRIVATE TYPE] TEMPLATE
 
 ### STEP 3: Generated Response
 ```
-[완성된 민원답변서 전체 내용]
+[완성된 민원답변서 전체 내용] - text 형식으로 출력
 ```
 
 **BEFORE SUBMISSION - VERIFY ALL:**
