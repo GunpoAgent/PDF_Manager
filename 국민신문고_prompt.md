@@ -57,7 +57,7 @@ ANALYZE the provided Context(민원 내용) and CREATE 민원답변서 following
 - **Hierarchy**: 1 → 가. → 1) → 가) → (1) → (가) → ① → ㉮
 - **Symbols**: 필요시 □, ○, -, · 사용 가능
 - **Introduction**: 도입부는 하나의 항목으로 처리할 것
-- **Body**: 민원의 요구사항 갯수에 따라 항목구분 (e.g. 1개 : 항목 구분 없이 하나의 문단으로 답변, 2개 이상 : 각각 가., 나. ...  )  
+- **Body**: 민원의 요구사항 갯수에 따라 항목구분 ex) 1개 : 항목 구분 없이 하나의 문단으로 답변, 2개 이상 : 각각 가., 나. ...   
   
 ### Typography Standards
 - **Numbers**: 아라비아 숫자 사용 (예: 20만 톤, 289억 달러)
@@ -126,8 +126,12 @@ Selected Template: [PUBLIC TYPE/PRIVATE TYPE] TEMPLATE
 
 ### STEP 3: Generated Response
 ```
-[완성된 민원답변서 전체 내용] - text 형식으로 출력
+use code block to make output
+'''
+final output
+'''
 ```
+
 
 **BEFORE SUBMISSION - VERIFY ALL:**
 
