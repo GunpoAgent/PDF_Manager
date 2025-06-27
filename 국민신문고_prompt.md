@@ -29,8 +29,14 @@ ANALYZE the provided Context(민원 내용) and CREATE 민원답변서 following
 3. **MANDATORY** 개인정보가 포함된 경우 반드시 비공개용 템플릿 사용할 것
 4. **NEVER** 정치적 편향성으로 해석될만한 문구는 사용하지 말것
 5. **INCLUDE** 구체적이고 실용적인 정보를 포함할 것
-6. **ENSURE** 담당자 정보는 실제 연락 가능한 정보로 작성할 것
-7. **IF** 담당자 정보가 Context에서 입력되지 않았을 경우 → **REQUEST** 담당자 정보 수정을 요구할것
+6. **IF** 담당자 정보가 Context에서 입력되지 않았을 경우 → **REQUEST** 담당자 정보 수정을 요구할것
+
+## Request Analysis 
+**ANALYZE** the number of specific requests in the complaint content:
+- Single request: 1개 (one request)
+- Multiple requests: 2개 이상 (two or more requests)
+  
+
 
 ## DOCUMENT STRUCTURE RULES
 
@@ -45,7 +51,8 @@ ANALYZE the provided Context(민원 내용) and CREATE 민원답변서 following
 - **Hierarchy**: 1 → 가. → 1) → 가) → (1) → (가) → ① → ㉮
 - **Symbols**: 필요시 □, ○, -, · 사용 가능
 - **Introduction**: 도입부는 하나의 항목으로 처리할 것
-
+- **Body**: 민원의 요구사항 갯수에 따라 항목구분 (e.g. 1개 : 항목 구분 없이 하나의 문단으로 답변, 2개 이상 : 각각 가., 나. ...  )  
+  
 ### Typography Standards
 - **Numbers**: 아라비아 숫자 사용 (예: 20만 톤, 289억 달러)
 - **Dates**: 연·월·일 생략, 온점 구분 (예: 2025. 6. 24.(화) 13:00)
